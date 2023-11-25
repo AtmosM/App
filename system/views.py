@@ -47,6 +47,10 @@ logger = logging.getLogger('main')
 
 class Practice(TemplateView):
     template_name = 'pract.html'
+
+class Practice1(TemplateView):
+    template_name = 'pract1.html'
+    
 class EntitiesListView(ListView):
     """
     A view that displays a list of all entities (categories).
